@@ -34,6 +34,32 @@
         .featured-cars-txt h2 {
             margin-bottom: 10px; /* Espaçamento entre o título e o preço/descrição */
         }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px; /* Espaçamento entre rótulo e campo de entrada */
+            font-weight: bold; /* Destaque no rótulo para facilitar a identificação */
+        }
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            font-size: 14px; /* Tamanho de fonte adequado para facilitar a leitura */
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form-group textarea {
+            height: 100px; /* Altura adequada para campos de texto maiores */
+        }
+        .form-group .error-message {
+            color: red; /* Cor para mensagens de erro */
+            font-size: 12px; /* Tamanho de fonte menor para mensagens de erro */
+        }
+        .form-group .optional {
+            font-style: italic; /* Indicação de campo opcional */
+        }
     </style>
 </head>
 
